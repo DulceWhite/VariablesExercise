@@ -31,6 +31,8 @@ blank = null;
 //1
 const quarter = 0.25 , dime = 0.10 , nickel = 0.05 , penny = 0.01;
 
+//const [quarter, dime, nickel, penny] = [0.25, 0.10 , 0.05 , 0.01];
+
 //2
 console.log(quarter, dime, nickel, penny);
 
@@ -40,3 +42,6 @@ let letters = "qwertyuiop";
 //4
 console.log(letters.length);//10
 console.log(letters[9]);
+
+console.log(letters.slice(-1));
+console.log(letters[letters.length -1]);
